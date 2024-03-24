@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      
+      <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VHVNHMYGN3"></script>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VHVNHMYGN3');
+
+document.addEventListener('keydown', function(event) {
+  if (event.shiftKey && event.key === 'Shift') {
+    window.open('https://mail.google.com', '_blank');
+  }
+});
+</script>
+<style>
+.card {
+  width: 200px;
+  height: 200px;
+  border: 0.25rem solid rgb(255 255 255 / 15%);
+  border-radius: 1rem;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card > img {  
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+.card:hover > img {
+  animation: pulse 800ms ease-in-out;
+  filter: url(#noise);
+}
+
+@media(max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
+
+.icon-container {
+    position: relative;
+    display: inline-block;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1px;
+  }
+.icon-container:hover {
+  box-shadow: 0 0 74px -4px #161616;
+}
+.icon-text {
+    opacity: 75%;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    width: 120%;
+    color: #FFFFFF;
+    background-color: #1b1b1b;
+    padding: 8px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .icon-container:hover img {
+    transform: scale(1.1);
+  }
+  .icon-container:active img {
+    transform: scale(0.9);
+  }
+
+</style>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+      <link rel="stylesheet" href="index.css">
+      
+      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+      <title id="tab-title">Gmail</title>
+      <link rel="shortcut icon" id="tab-favicon" href="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico">
+   </head>
+   <body>
+      <nav class="navbar">
+         <!-- LOGO -->
+         <div class="logo">ASTRIX</div>
+     
+         <!-- NAVIGATION MENU -->
+         <ul class="nav-links">
+     
+          
+          
+     
+           <!-- NAVIGATION MENUS -->
+           <div class="menu">
+     
+             <li><a href="index.html">Home</a></li>
+             <li><a href="games.html">Games</a></li>
+     
+             <li><a href="apps.html">Apps</a></li>
+             <li><a href="ai.html">Ai</a></li>
+           </div>
+         </ul>
+       </nav>
+     
+      <a href="games/basketrandom/index.html"
+       <div class="icon-container">
+        <img src="games/basketrandom/splash.jpeg" alt="Example Image" width="150" height="150">
+        <div class="icon-text">Basket Random
+        </div>
+      </div>
+    </a>
+    <a href="games/minecraft-1.5.2/index.html"
+       <div class="icon-container">
+        <img src="games/minecraft-1.5.2/splash.jpeg" alt="Example Image" width="150" height="150">
+        <div class="icon-text">Minecraft 1.5.2
+        </div>
+      </div>
+    </a>
+    <a href="games/slope/index.html"
+       <div class="icon-container">
+        <img src="games/slope/splash.jpeg" alt="Example Image" width="150" height="150">
+        <div class="icon-text">Slope
+        </div>
+      </div>
+    </a>
+    <a href="games/tiny-fishing/index.html"
+       <div class="icon-container">
+        <img src="games/tiny-fishing/splash.png" alt="Example Image" width="150" height="150">
+        <div class="icon-text">Tiny Fishing
+        </div>
+      </div>
+    </a>
+    <a href="https://h5cdn.github.io/s3/tag"
+       <div class="icon-container">
+        <img src="imgs/splash.jpg" alt="Example Image" width="150" height="150">
+        <div class="icon-text">Tag
+        </div>
+      </div>
+    </a>
+    <a href="flash/flash.html"
+       <div class="icon-container">
+        <img src="flash/splash.png" alt="Example Image" width="150" height="150">
+        <div class="icon-text">Run
+        </div>
+      </div>
+    </a>
+
+         
+      
+   </body>
+</html>
